@@ -2,7 +2,7 @@
 
 namespace ArnobMonir\PenMan\Traits;
 
-use App\Models\PenMan as ModelsPenMan;
+use ArnobMonir\PenMan\Models\PenMan as ModelsPenMan;
 use Illuminate\Support\Facades\Auth;
 
 trait PenMan
