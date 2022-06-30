@@ -1,0 +1,26 @@
+{
+    "name": "arnob-monir/penman",
+    "description": "Note down user activity over all model",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "ArnobMonir\\PenMan\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Arnob Monir",
+            "email": "aarnob.monir@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ArnobMonir\\PenMan\\PenManServiceProvider"
+            ]
+        }
+    }
+}
